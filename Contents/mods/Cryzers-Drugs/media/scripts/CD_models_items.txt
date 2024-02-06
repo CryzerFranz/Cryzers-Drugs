@@ -1,0 +1,21 @@
+module Cryzers_Drugs{
+
+    imports{
+        Base
+    }
+
+	model CannabisSeedBag_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = WorldItems/CDMSeedPacketCannabis,
+        scale = 0.4,
+    }
+
+    model CDGrinder_Ground
+    {
+        mesh = CDGrinder,
+        texture = WorldItems/CDMGrinder,
+        scale = 0.4,
+    }
+
+}
