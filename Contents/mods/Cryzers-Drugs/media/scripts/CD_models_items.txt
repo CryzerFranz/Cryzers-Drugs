@@ -18,4 +18,11 @@ module Cryzers_Drugs{
         scale = 0.4,
     }
 
+    model CDJoint_Ground
+    {
+        mesh = CDJoint,
+        texture = WorldItems/CDMJoint,
+        scale = 0.1,
+    }
+
 }
