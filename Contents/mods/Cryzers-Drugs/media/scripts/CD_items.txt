@@ -6,11 +6,21 @@ module Cryzers_Drugs{
 
 	# item DriedCannabis
 	# {
-	# 	DisplayCategory 	= 		Drugs,
-	# 	Type 				= 		Drainable,
-	# 	DisplayName 		=		Dried Cannabis,
-	# 	Icon				=		CDDriedCannabis
+		# DisplayCategory 	= 		Drugs,
+		# Type 				= 		Drainable,
+		# DisplayName 		=		Dried Cannabis,
+		# Icon				=		CDDriedCannabis
 	# }
+
+	item CannabisMature
+	{
+		DisplayCategory 			= 		Drugs,
+		Type 						= 		Normal,
+		DisplayName 				=		Mature Cannabis,
+		Icon						=		CDDriedCannabis,
+		WorldStaticModel			=		CDCannabisPlantMature_Ground,
+
+	}
 
 	item Joint
 	{

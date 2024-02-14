@@ -25,4 +25,11 @@ module Cryzers_Drugs{
         scale = 0.1,
     }
 
+    model CDCannabisPlantMature_Ground
+    {
+        mesh = CDCannabisPlant,
+        texture = WorldItems/CDMCannabis,
+        scale = 0.4,
+    }
+
 }
