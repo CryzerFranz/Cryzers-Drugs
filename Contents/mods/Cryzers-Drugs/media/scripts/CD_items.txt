@@ -12,11 +12,11 @@ module Cryzers_Drugs{
 		# Icon				=		CDDriedCannabis
 	# }
 
-	item CannabisMature
+	item Cannabis
 	{
 		DisplayCategory 			= 		Drugs,
 		Type 						= 		Normal,
-		DisplayName 				=		Mature Cannabis,
+		DisplayName 				=		Cannabis,
 		Icon						=		CDDriedCannabis,
 		WorldStaticModel			=		CDCannabisPlantMature_Ground,
 
