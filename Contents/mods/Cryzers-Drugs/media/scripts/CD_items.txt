@@ -4,22 +4,34 @@ module Cryzers_Drugs{
 		Base
 	}
 
-	# item DriedCannabis
-	# {
-		# DisplayCategory 	= 		Drugs,
-		# Type 				= 		Drainable,
-		# DisplayName 		=		Dried Cannabis,
-		# Icon				=		CDDriedCannabis
-	# }
+	item Dope
+	{
+		DisplayCategory		=		Drugs,
+		Type				=		Normal,
+		DisplayName			=		Dope,
+		Icon				=		CDDope,
+		WorldStaticModel	=		CDDope_Ground,
+		Weight				=		0.1,
+	}
+
+	item GrindedDope
+	{
+		DisplayCategory		=		Drugs,
+		Type				=		Normal,
+		DisplayName			=		Grinded dope,
+		Icon				=		CDGrindedDope,
+		WorldStaticModel	=		CDGrindedDope_Ground,
+		Weight				=		0.1,
+	}
 
 	item Cannabis
 	{
 		DisplayCategory 			= 		Drugs,
 		Type 						= 		Normal,
 		DisplayName 				=		Cannabis,
-		Icon						=		CDDriedCannabis,
+		Icon						=		CDCannabisPlant,
 		WorldStaticModel			=		CDCannabisPlantMature_Ground,
-
+		Weight						=		4.0,
 	}
 
 	item Joint
