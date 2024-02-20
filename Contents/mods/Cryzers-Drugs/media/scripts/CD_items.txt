@@ -44,7 +44,7 @@ module Cryzers_Drugs{
 		WorldStaticModel			=		CDCannabisPlantMature_Ground,
 		Weight						=		4.0,
 		Wet							= 		TRUE,
-		WetCooldown					= 		18000,
+		WetCooldown					= 		200000,
 		ItemWhenDry         		=       Cryzers_Drugs.DriedCannabis,
 	}
 
@@ -105,13 +105,39 @@ module Cryzers_Drugs{
 	/******************************Recipes*************************************/
 	/*************************~~~~~~~~~~~~~~~~~****************************/
 
+	recipe Make Joint
+	{
+		GrindedDope=5,
+		SheetPaper2,
+		Result: Joint,
+		Time: 30.0,
+		Category:Drugs,
+	}
+
+	recipe Grind Dope
+	{
+		Dope,
+		keep Grinder,
+		Result: GrindedDope,
+		Time: 15.0,
+		Category:Drugs,
+	}
+
+	recipe Make Dope
+	{
+		DriedCannabis,
+		Result:Dope=35,
+		Time:15.0,
+		Category:Drugs,
+	}
+
 	recipe Open Packet of Cannabis Seeds
 	{
 		CannabisBagSeed,
   
         Result:CannabisSeed=12,
         Time:20.0,
-        Category:Farming,
+        Category:Drugs,
         Sound:OpenSeedPacket,
 	}
 
@@ -121,7 +147,7 @@ module Cryzers_Drugs{
 
         Result:CannabisBagSeed,
         Time:10.0,
-        Category:Farming,
+        Category:Drugs,
     }
 
 	/**********************************************************************/
