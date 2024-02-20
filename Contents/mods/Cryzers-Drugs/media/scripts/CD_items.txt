@@ -24,6 +24,17 @@ module Cryzers_Drugs{
 		Weight				=		0.1,
 	}
 
+	item DriedCannabis
+	{
+		DisplayCategory		=		Drugs,
+		Type				=		Normal,
+		DisplayName			=		Dried cannabis,
+		Icon				=		CDDriedCannabisPlant,
+		WorldStaticModel	=		CDDriedCannabisPlantMature_Ground,
+		Weight				=		0.1,
+	}
+
+
 	item Cannabis
 	{
 		DisplayCategory 			= 		Drugs,
@@ -32,6 +43,9 @@ module Cryzers_Drugs{
 		Icon						=		CDCannabisPlant,
 		WorldStaticModel			=		CDCannabisPlantMature_Ground,
 		Weight						=		4.0,
+		Wet							= 		TRUE,
+		WetCooldown					= 		18000,
+		ItemWhenDry         		=       Cryzers_Drugs.DriedCannabis,
 	}
 
 	item Joint
