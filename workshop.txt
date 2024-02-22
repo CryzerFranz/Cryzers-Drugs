@@ -1,3 +1,4 @@
-version=1
+version=1.0
 title=Cryzer's Drugs
-description=explanation..
+description=Grow your own plant to make your alternative medicine to reduce stress and unhappiness. Keep care of the negative effects!
+visibility=public
