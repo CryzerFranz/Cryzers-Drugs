@@ -1,4 +1,33 @@
-version=1.0
-title=Cryzer's Drugs
+version=1
+id=3165926535
+title=Cryzer's Drugs (Alternative Medicine)
 description=Grow your own plant to make your alternative medicine to reduce stress and unhappiness. Keep care of the negative effects!
+description=
+description=What can you find in the world?
+description=- Grinder
+description=- Cannabis Seed
+description=- Cannabis seed bag
+description=- Joint
+description=
+description=How it works?
+description=1. Plant a Cannabis seed
+description=2. take care of the plant
+description=3. harvest it
+description=4. let the plant dry (round about 6 days)
+description=5. get the dope from the dry cannabis plant
+description=6. grind the dope with the grinder
+description=7. make a joint
+description=8. enjoy! (smoker benefits)
+description=
+description=What are the benefits of a joint?
+description=
+description=		StressChange				 = 		-25
+description=		UnhappyChange			 	= 		-10
+description=
+description=What are the disadvantages of a joint?
+description=
+description=HungerChange				 =		 15
+description=		ThirstChange				 =	 	15
+description=		FatigueChange 				= 		20
+tags=Build 41;Food;Items;Multiplayer
 visibility=public
