@@ -63,6 +63,7 @@ module Cryzers_Drugs{
 		FatigueChange 				=		20,
 		StressChange				=		-25,
 		UnhappyChange				=		-10,
+		PainReduction 				= 		17,
 		StaticModel 				= 		Cigarette,
 		OnEat 						=		OnEat_Cigarettes,
 		EatType 					= 		Cigarettes,
